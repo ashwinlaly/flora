@@ -1,17 +1,36 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <div class="ion-text-center">
+      <h3>History of the Department</h3>
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <!-- <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 2</ion-title>
     </ion-toolbar>
-  </ion-header>
+  </ion-header> -->
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  {{text}}
+  <!-- <section id="cd-timeline" class="cd-container"> -->
+    <ion-item *ngFor="let activity of timeline">
+      {{activity.title}}
+      <!-- <div class="cd-timeline-block">
+        <div class="cd-timeline-icon royal">
+          <i class="ion-image timelineIcon" ng-if="(activity.type=='picture')"></i>
+          <i class="ion-ios-videocam timelineIcon" ng-if="activity.type=='video' "></i>
+          <i class="ion-location timelineIcon" ng-if="activity.type=='location'"></i>
+          <i class="ion-android-textsms timelineIcon" ng-if="activity.type=='text'"></i>
+        </div>
+        <div class="cd-timeline-content royal">
+          <h5 class="marginBottom0 marginTop0">{{activity.title}}</h5>
+          <p class="marginTop5 cd-author">by {{activity.author}} on {{activity.date | date: "d MMM"}}</p>
+          <p class="timelineText">{{activity.text}}</p>
+        </div>
+      </div> -->
+    </ion-item>
+  <!-- </section> -->
+
 </ion-content>
