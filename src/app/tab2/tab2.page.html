@@ -13,11 +13,32 @@
     </ion-toolbar>
   </ion-header> -->
 
-  {{text}}
-  <!-- <section id="cd-timeline" class="cd-container"> -->
-    <ion-item *ngFor="let activity of timeline">
-      {{activity.title}}
-      <!-- <div class="cd-timeline-block">
+  <section id="cd-timeline" class="cd-container" *ngIf="data">
+    <div *ngFor="let activity of timeline">
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-icon royal">
+          <i class="ion-image timelineIcon" ng-if="(activity.type=='picture')"></i>
+          <i class="ion-ios-videocam timelineIcon" ng-if="activity.type=='video' "></i>
+          <i class="ion-location timelineIcon" ng-if="activity.type=='location'"></i>
+          <i class="ion-android-textsms timelineIcon" ng-if="activity.type=='text'"></i>
+        </div>
+        <div class="cd-timeline-content royal">
+          <h5 class="marginBottom0 marginTop0">
+            <ion-skeleton-text animated style="width: 20%"></ion-skeleton-text>
+          </h5>
+          <p class="timelineText">
+            <ion-skeleton-text animated style="width: 80%"></ion-skeleton-text>
+            <ion-skeleton-text animated style="width: 90%"></ion-skeleton-text>
+            <ion-skeleton-text animated style="width: 60%"></ion-skeleton-text>          
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cd-timeline" class="cd-container" *ngIf="!data">
+    <div *ngFor="let activity of timeline">
+      <div class="cd-timeline-block">
         <div class="cd-timeline-icon royal">
           <i class="ion-image timelineIcon" ng-if="(activity.type=='picture')"></i>
           <i class="ion-ios-videocam timelineIcon" ng-if="activity.type=='video' "></i>
@@ -26,11 +47,11 @@
         </div>
         <div class="cd-timeline-content royal">
           <h5 class="marginBottom0 marginTop0">{{activity.title}}</h5>
-          <p class="marginTop5 cd-author">by {{activity.author}} on {{activity.date | date: "d MMM"}}</p>
+          <!-- <p class="marginTop5 cd-author">by {{activity.author}} on {{activity.date | date: "d MMM"}}</p> -->
           <p class="timelineText">{{activity.text}}</p>
         </div>
-      </div> -->
-    </ion-item>
-  <!-- </section> -->
+      </div>
+    </div>
+  </section>
 
 </ion-content>
