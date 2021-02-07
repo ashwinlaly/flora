@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      <h4 *ngIf="Flower">
+        {{Flower.habitant}}
+      </h4>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-card *ngIf="Flower">
+      <img src="{{Flower.image_url}}" />
+      <ion-card-header>
+        <ion-card-subtitle>Common Name : {{Flower.common_name}}</ion-card-subtitle>
+        <ion-card-title>Scientific Name : {{Flower.scientific_name}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+
+        <ion-text color="secondary">
+          <h3>Author : {{Flower.author_name}}</h3>
+        </ion-text>
+        
+        <ion-text color="primary">
+          <h3>Family : {{Flower.family_name}}</h3>
+        </ion-text>
+        
+        <ion-text color="dark">
+          <h3>Habitant : {{Flower.habitant}}</h3>
+        </ion-text>
+
+
+      </ion-card-content>
+    </ion-card>
+
+</ion-content>

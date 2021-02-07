@@ -1,0 +1,254 @@
+[
+    {
+      "id": "2",
+      "scientific_name": "Anthurium andraeanum",
+      "author_name": "Linden ex Andre.",
+      "common_name": "Flamingo Lily",
+      "family_name": "Araceae",
+      "habitant": "Herb ",
+      "image_url": "/assets/images/picture/Anthurium.jpg"
+    },
+    {
+      "id": "4",
+      "scientific_name": "Epiphyllum oxypetalum ",
+      "author_name": "(DC.) Haworth.",
+      "common_name": "Nishagandhi",
+      "family_name": "Cactaceae",
+      "habitant": "-",
+      "image_url": "/assets/images/picture/Epiphyllum.jpg"
+    },
+    {
+      "id": "6",
+      "scientific_name": "Magnolia champaca ",
+      "author_name": "(Linn.) Baill. ex Pierre",
+      "common_name": "Sambagan",
+      "family_name": "Magnoliaceae",
+      "habitant": "Tree ",
+      "image_url": "/assets/images/picture/Magnolia.jpg"
+    },
+    {
+      "id": "8",
+      "scientific_name": "Ixora coccinea ",
+      "author_name": "L.",
+      "common_name": "Vedchi",
+      "family_name": "Rubiaceae",
+      "habitant": "Shrub",
+      "image_url": "/assets/images/picture/Ixora.jpg"
+    },
+    {
+      "id": "10",
+      "scientific_name": "Plumeria rubra ",
+      "author_name": "L.",
+      "common_name": "Sampangi",
+      "family_name": "Apocynaceae",
+      "habitant": "Shrub",
+      "image_url": "/assets/images/picture/Plumeria rubra.jpg"
+    },
+    {
+      "id": "12",
+      "scientific_name": "Nerium oleander ",
+      "author_name": "L.",
+      "common_name": "Arali",
+      "family_name": "Apocynaceae",
+      "habitant": "Shrub",
+      "image_url": "/assets/images/picture/Nerium oleander.jpg"
+    },
+    {
+      "id": "14",
+      "scientific_name": "Pongamia pinnata ",
+      "author_name": "(Linn.) Panigrahi.",
+      "common_name": "Punkam maram",
+      "family_name": "Fabaceae",
+      "habitant": "Tree ",
+      "image_url": "/assets/images/picture/Pongamia pinnata.jpg"
+    },
+    {
+      "id": "16",
+      "scientific_name": "Allamanda cathartica",
+      "author_name": "L.",
+      "common_name": "Golden Trumpet Vine",
+      "family_name": "Apocynaceae",
+      "habitant": "Climber",
+      "image_url": "/assets/images/picture/Allamanda catharetica.jpg"
+    },
+    {
+      "id": "18",
+      "scientific_name": "Bougainvillea glabra ",
+      "author_name": "Choisy",
+      "common_name": "Bougainvillea",
+      "family_name": "Nyctaginaceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Bougainvillea glabra.jpg"
+    },
+    {
+      "id": "20",
+      "scientific_name": "Jasminum sambac ",
+      "author_name": "(Linn.) Aiton.",
+      "common_name": "Gundu Malli",
+      "family_name": "Oleaceae",
+      "habitant": "Climber",
+      "image_url": "/assets/images/picture/Jasminum sambac.jpg"
+    },
+    {
+      "id": "22",
+      "scientific_name": "Bauhinia purpurea ",
+      "author_name": "L.",
+      "common_name": "Nilattiruvatti",
+      "family_name": "Fabaceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Bauhinia purpurea.jpg"
+    },
+    {
+      "id": "24",
+      "scientific_name": "Cyrtostachys renda ",
+      "author_name": "Blume.",
+      "common_name": "Sealing Wax Palm",
+      "family_name": "Arecaceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Cyrtostachys renda.jpg"
+    },
+    {
+      "id": "26",
+      "scientific_name": "Dendrobium phalaenopsis",
+      "author_name": "L.",
+      "common_name": "Cooktown Orchid",
+      "family_name": "Orchidaceae",
+      "habitant": "Herb",
+      "image_url": "/assets/images/picture/Dendrobium phalaenopsis-rl1.jpg"
+    },
+    {
+      "id": "28",
+      "scientific_name": "Thujao occidentalis",
+      "author_name": "L.",
+      "common_name": "Oriental thuja",
+      "family_name": "Cupressaceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Thujao ccidentalis.jpg"
+    },
+    {
+      "id": "30",
+      "scientific_name": "Dracaena marginata ",
+      "author_name": "Hort.",
+      "common_name": "Dracaena",
+      "family_name": "Asparagaceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Dracaena marginat.jpg"
+    },
+    {
+      "id": "32",
+      "scientific_name": "Asparagus densiflorus ",
+      "author_name": "L.",
+      "common_name": "Foxtail Asparagus",
+      "family_name": "Asparagaceae",
+      "habitant": "Climber",
+      "image_url": "/assets/images/picture/Asparagus densiflorus.jpg"
+    },
+    {
+      "id": "34",
+      "scientific_name": "Spathiphyllum wallisii ",
+      "author_name": "Regel.",
+      "common_name": "Peace lily",
+      "family_name": "Araceae",
+      "habitant": "Herb",
+      "image_url": "/assets/images/picture/Spathiphyllum wallis.jpg"
+    },
+    {
+      "id": "36",
+      "scientific_name": "Asparagus aethiopicus ",
+      "author_name": "L.",
+      "common_name": "Foxtail Asparagus",
+      "family_name": "Asparagaceae",
+      "habitant": "Climber",
+      "image_url": "/assets/images/picture/Asparagus aethiopicu.jpg"
+    },
+    {
+      "id": "38",
+      "scientific_name": "Dieffenbachia seguine ",
+      "author_name": "(Jacq.) Schott.",
+      "common_name": "Dumb Cane",
+      "family_name": "Araceae",
+      "habitant": "Shrub",
+      "image_url": "/assets/images/picture/Dieffenbachia seguine.jpg"
+    },
+    {
+      "id": "40",
+      "scientific_name": "Ficus microcarpa ",
+      "author_name": "Linn. f.",
+      "common_name": "Kallichchi",
+      "family_name": "Moraceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Ficus microcarpa.jpg"
+    },
+    {
+      "id": "42",
+      "scientific_name": "Polyscias guilfoylei ",
+      "author_name": "(W.Bull) L.H. Bailey.",
+      "common_name": "Ming aralia",
+      "family_name": "Araliaceae",
+      "habitant": "Shrub",
+      "image_url": "/assets/images/picture/Polyscias guilfoylei .jpg"
+    },
+    {
+      "id": "44",
+      "scientific_name": "Schefflera arboricola ",
+      "author_name": "(Hayata) Kanehira.",
+      "common_name": "Dwarf Umbrella Tree",
+      "family_name": "Araliaceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Schefflera arboricola.jpg"
+    },
+    {
+      "id": "46",
+      "scientific_name": "Ficus benjamina ",
+      "author_name": "L.",
+      "common_name": "Nintamaravakai ",
+      "family_name": "Moraceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Ficus benjamin.jpg"
+    },
+    {
+      "id": "48",
+      "scientific_name": "Dypsis lutescens ",
+      "author_name": "(H. Wendl) Beentze & J. Dransf.",
+      "common_name": "Golden Cane Palm",
+      "family_name": "Aracaceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Dypsis lutescens .jpg"
+    },
+    {
+      "id": "50",
+      "scientific_name": "Parodia chrysacanthion ",
+      "author_name": "(Schumann) Brandt.",
+      "common_name": "Columnar cactus",
+      "family_name": "Cactaceae",
+      "habitant": "-",
+      "image_url": "/assets/images/picture/Parodia chrysacanthion.jpg"
+    },
+    {
+      "id": "52",
+      "scientific_name": "Sansevieria trifasciata ",
+      "author_name": "Prain.",
+      "common_name": "Snake Plant",
+      "family_name": "Asparagaceae",
+      "habitant": "Herb",
+      "image_url": "/assets/images/picture/Sansevieria trifasciata.jpg"
+    },
+    {
+      "id": "54",
+      "scientific_name": "Syagrus romanzoffiana ",
+      "author_name": "(Cham.) Glassman.",
+      "common_name": "Queen Palm",
+      "family_name": "Arecaceae",
+      "habitant": "Tree ",
+      "image_url": "/assets/images/picture/Syagrus romanzoffiana.jpg"
+    },
+    {
+      "id": "56",
+      "scientific_name": "Cycas revoluta",
+      "author_name": "Thunb.",
+      "common_name": "Sago palm",
+      "family_name": "Cycadaceae",
+      "habitant": "Tree",
+      "image_url": "/assets/images/picture/Cycas revolute .jpg"
+    }
+]

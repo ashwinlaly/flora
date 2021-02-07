@@ -1,0 +1,20 @@
+
+  <ion-list>
+    <ion-item *ngFor="let item of flower" (click)="loadFloraDetails(item)">
+      <ion-avatar slot="start">
+        <img src="{{item.image_url}}">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{item.scientific_name}}</h2>
+        <h3>{{item.habitant}}</h3>
+        <p>{{item.family_name}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles"
+      loadingText="Loading more data...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
